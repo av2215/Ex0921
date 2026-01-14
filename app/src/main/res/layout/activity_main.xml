@@ -18,6 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="message"
         android:text="message only" />
 
     <Space
@@ -30,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="icon"
         android:text="icon" />
 
     <Space
@@ -42,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="cancel"
         android:text="cancel" />
 
     <Space
@@ -54,6 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="changeColor"
         android:text="change color" />
 
     <Space
@@ -66,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="changeReset"
         android:text="change and reset" />
 
     <Space
